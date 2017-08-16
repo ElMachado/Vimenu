@@ -32,7 +32,9 @@
             android:layout_centerHorizontal="true"
             android:fontFamily="cursive"
             android:text="Bienvenidos a Vimenu"
-            android:textSize="24sp" />
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button"
