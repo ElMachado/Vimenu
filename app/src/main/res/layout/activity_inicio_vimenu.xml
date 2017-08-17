@@ -37,7 +37,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonVerCarta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="31dp"
@@ -47,21 +47,20 @@
             android:layout_alignParentStart="true" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonVerubicacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonVerCarta"
+            android:layout_alignBottom="@+id/buttonVerCarta"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="38dp"
-            android:text="Ver ubicación"
-            android:layout_alignBaseline="@+id/button"
-            android:layout_alignBottom="@+id/button"
-            android:layout_alignParentEnd="true" />
+            android:text="Ver ubicación" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageViewvimenu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:srcCompat="@mipmap/vimenu"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
