@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="34dp"
             android:background="@color/colorAccent"
-            android:padding="?android:attr/lightY"
+
             android:text="Contactenos"
             android:textColor="@color/primarytext"
             android:layout_below="@+id/imageViewvimenu"

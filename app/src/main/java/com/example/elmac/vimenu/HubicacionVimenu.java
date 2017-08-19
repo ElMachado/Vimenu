@@ -1,6 +1,4 @@
-package com.example.elmac.vimenu;
-
-import android.support.v4.app.FragmentActivity;
+package com.example.elmac.vimenu;import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -39,8 +37,8 @@ public class HubicacionVimenu extends FragmentActivity implements OnMapReadyCall
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng Elprove = new LatLng(6.240941, -75.591710);
+        mMap.addMarker(new MarkerOptions().position(Elprove).title("El prove"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Elprove,18));
     }
 }
