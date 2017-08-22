@@ -37,7 +37,8 @@
 
         <activity
             android:name=".HubicacionVimenu"
-            android:label="@string/title_activity_hubicacion_vimenu"></activity>
+            android:label="@string/title_activity_hubicacion_vimenu" />
+        <activity android:name=".Carta_General"></activity>
     </application>
 
 </manifest>

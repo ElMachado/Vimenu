@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elmac.vimenu.Carta_General">
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/buttonBebidas"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:drawablePadding="@dimen/default_gap"
+            android:drawableRight="@mipmap/cafe"
+            android:padding="10dp"
+            android:text="Bebidas" />
+
+        <Button
+            android:id="@+id/buttonFuertes"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/buttonBebidas"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/secondarytext"
+            android:drawablePadding="@dimen/default_gap"
+            android:drawableRight="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:text="Platos fuertes"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonRapidas"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.01"
+            android:background="@android:color/holo_blue_light"
+            android:drawablePadding="@dimen/default_gap"
+            android:drawableRight="@mipmap/beer"
+            android:padding="10dp"
+            android:text="Comida rapida"
+            android:layout_below="@+id/button12"
+            android:layout_alignParentStart="true" />
+        />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="0.01"
+            android:background="@android:color/holo_orange_dark"
+            android:drawablePadding="@dimen/default_gap"
+            android:drawableRight="@mipmap/food_truck"
+            android:padding="10dp"
+            android:text="Comida rapida"
+            android:layout_below="@+id/buttonPostres"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/buttonPostres"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@android:color/holo_purple"
+            android:drawablePadding="@dimen/default_gap"
+            android:drawableRight="@mipmap/postre"
+            android:padding="10dp"
+            android:text="Postres"
+            android:layout_below="@+id/buttonFuertes"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonCocinero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@mipmap/cocinero"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
