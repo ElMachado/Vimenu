@@ -8,21 +8,30 @@ import android.widget.Toast;
 import android.view.View;
 
 public class InicioVimenu extends AppCompatActivity {
-    private View btn;
+    private View btnUbicacion;
+    private View btnVerCarta;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio_vimenu);
 
-        btn=(Button) findViewById(R.id.buttonVerubicacion);
-
-        btn.setOnClickListener(new View.OnClickListener(){
+        btnUbicacion=(Button) findViewById(R.id.buttonVerubicacion);
+        btnUbicacion.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
-                //acceder al Activity_Hubicacion_vimenu
-                Intent intent=new Intent(InicioVimenu.this,HubicacionVimenu.class);
+                //acceder al Activity_ubicacion_vimenu
+                Intent intent= new Intent(InicioVimenu.this,ubicacionVimenu.class);
                 startActivity(intent);
             }
 
+        });
+
+        btnVerCarta = (Button) findViewById(R.id.buttonVerCarta);
+        btnVerCarta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(InicioVimenu.this,Carta_General.class);
+                startActivity(intent);
+            }
         });
     }
 }
