@@ -36,7 +36,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".HubicacionVimenu"
+            android:name=".UbicacionVimenu"
             android:label="@string/title_activity_hubicacion_vimenu" />
         <activity android:name=".Carta_General" />
         <activity android:name=".Bebidas" />

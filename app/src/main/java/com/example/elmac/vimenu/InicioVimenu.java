@@ -19,7 +19,7 @@ public class InicioVimenu extends AppCompatActivity {
         btnUbicacion.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 //acceder al Activity_ubicacion_vimenu
-                Intent intent= new Intent(InicioVimenu.this,HubicacionVimenu.class);
+                Intent intent= new Intent(InicioVimenu.this,ubicacionVimenu.class);
                 startActivity(intent);
             }
 
