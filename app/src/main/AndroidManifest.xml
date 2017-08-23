@@ -38,7 +38,12 @@
         <activity
             android:name=".HubicacionVimenu"
             android:label="@string/title_activity_hubicacion_vimenu" />
-        <activity android:name=".Carta_General"></activity>
+        <activity android:name=".Carta_General" />
+        <activity android:name=".Bebidas" />
+        <activity android:name=".PlatosFuertes" />
+        <activity android:name=".Postres" />
+        <activity android:name=".CRapidas" />
+        <activity android:name=".Licores"></activity>
     </application>
 
 </manifest>
