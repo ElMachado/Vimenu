@@ -37,7 +37,7 @@
 
         <activity
             android:name=".UbicacionVimenu"
-            android:label="@string/title_activity_hubicacion_vimenu" />
+            android:label="@string/title_activity_ubicacion_vimenu" />
         <activity android:name=".Carta_General" />
         <activity android:name=".Bebidas" />
         <activity android:name=".PlatosFuertes" />

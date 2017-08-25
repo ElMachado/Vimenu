@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Vimenu</string>
-    <string name="title_activity_hubicacion_vimenu">Hubicacion</string>
+    <string name="title_activity_ubicacion_vimenu">Hubicacion</string>
     <string name="title_activity_bebidas">Bebidas</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
